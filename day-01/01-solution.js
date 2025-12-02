@@ -6,7 +6,7 @@ import process from 'node:process';
 import { range } from '../utils/range.js';
 
 const CURRENT_DIR = 'day-01';
-const INPUT_FILE = '01-input.txt';
+const INPUT_FILE = 'input.txt';
 
 const DIAL = Array.from(range(100));
 console.log({ DIAL });
