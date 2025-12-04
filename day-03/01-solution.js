@@ -34,7 +34,7 @@ async function processBank(bank) {
       }
     }
   }
-  const maxJoltage = Number(`${max}${secondMax}`);
+  const maxJoltage = max * 10 + secondMax;
   // console.log({ bank, maxJoltage });
   return maxJoltage;
 }
