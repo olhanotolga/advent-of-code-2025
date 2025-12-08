@@ -44,7 +44,7 @@ function processData(data) {
       "Number of operands doesn't match the number of operators!"
     );
   }
-  
+
   // console.log({ numbers, operators });
   return { numbers, operators };
 }
